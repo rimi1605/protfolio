@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Title" content="portfolio">
+    <meta name="Keyworld" content="Web, Design, Uiux">
+    <meta name="Description" content="portfolio를 소개합니다">
+    <meta name="Copyright" content="RIm">
+    <meta name="Location" content="Seoul Korea">
+    <link rel="icon" href="./images/" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="./js/jquery.easing.1.3.js"></script>
+    <script src="./js/jquery.mousewheel.min.js"></script>
+    <script src="./js/jquery-1.7.1.min.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+
+    <!-- my -->
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+<body class="noS">
+    <div class="wrap">
+        <div class="popup">
+            <div class="bg">
+                <p>본 사이트는 500px, 1920px에 최적화된 사이트입니다.</p>
+                <a href="#" class="btn">닫기</a>
+            </div>
+        </div>
+        <header id="header">
+            <h1 id="logo">
+                <a href="#hero">
+                    <img src="./img/logo.png" alt="logo">
+                </a>
+            </h1>
+            <div class="navWrap">
+                <a class="navBtn mobile">
+                    <ion-icon name="menu"></ion-icon>
+                </a>
+                <nav id="nav">
+                    <div class="navIn clear">
+                        <span>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </span>
+                        <ul>
+                            <li><a href="#hero">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#web">WEB</a></li>
+                            <li><a href="#yolo">YOLOㆍAI</a></li>
+                            <li><a href="#design">DESIGN</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- //navWrap -->
+        </header>
+        <nav class="section mobile">
+            <ul>
+                <li class="on"><a href="#design1"></a></li>
+                <li><a href="#design2"></a></li>
+                <li><a href="#web"></a></li>
+                <li><a href="#uiux"></a></li>
+            </ul>
+        </nav>
+        <!-- //main -->
+        <div class="main">
+            <!-- hero -->
+            <section id="hero">
+                <div class="box">
+                    <h2 class="h_tit">
+                        최적의 경험을 향한, <span>꾸준한 탐색</span>
+                    </h2>
+                    <p>사용자를 위한 최적의 인터페이스를 고민하며, 끊임없이 배우고 탐구합니다.</p>
+                    <a href="#about" class="btn">레시피 보러 가기</a>
+                </div>
+            </section>
+            <!-- about -->
+            <section id="about">
+                <h2 class="tit">about</h2>
+                <img src="./img/profile.png" alt="profile">
+                <div class="content">
+                    <ul class="exp">
+                        <li><h3 class="tit">Experience</h3></li>
+                        <li class="t"><p>2023.11-2024.12</p><span>푸디코리아</span></li>
+                        <!-- edu -->
+                        <li><h3 class="tit">Education</h3></li>
+                        <li><p>2025.02-2025.11</p><span>심화과정 인공지능 YOLO 기반 부트캠프</span></li>
+                        <li><p>2025.02-2025.08</p><span>MBC UIUX 웹디자인 웹퍼블리셔 프론트엔드</span></li>
+                        <li><p>2020.03-2024.01</p><span>삼성생활예술고 관광조리과</span></li>
+                    </ul>
+                    <ul class="lic">
+                        <li><h3 class="tit">license</h3></li>
+                        <li><p>2025.06</p><span>GTQ 1급</span></li>
+                        <li><p>2025.06</p><span>GTQi 2급</span></li>
+                        <li><p>2023.09</p><span>한식조리산업기사</span></li>
+                        <li><p>2023.05</p><span>양식조리기능사</span></li>
+                        <li><p>2022.06</p><span>ITQ</span></li>
+                    </ul>
+                    <ul class="too">
+                        <li><h3 class="tit">TOOL</h3></li>
+                        <li><img src="./img/tool_01.png" alt="tool"></li>
+                        <li><img src="./img/tool_02.png" alt="tool"></li>
+                        <li><img src="./img/tool_03.png" alt="tool"></li>
+                        <li><img src="./img/tool_04.png" alt="tool"></li>
+                        <li><img src="./img/tool_05.png" alt="tool"></li>
+                        <li><img src="./img/tool_06.png" alt="tool"></li>
+                        <li><img src="./img/tool_07.png" alt="tool"></li>
+                        <li><img src="./img/tool_08.png" alt="tool"></li>
+                        <li><img src="./img/tool_09.png" alt="tool"></li>
+                        <li><img src="./img/tool_10.png" alt="tool"></li>
+                    </ul>
+                </div>
+            </section>
+            <!-- web -->
+            <section id="web">
+                <!-- Swiper -->
+                <h2 class="tit">web</h2>
+                <ul class="tab">
+                    <li class="on"><a href="#">All</a></li>
+                    <li><a href="#">Team Project</a></li>
+                    <li><a href="#">Presonal Project</a></li>
+                    <li><a href="#">Mobile</a></li>
+                </ul>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_01.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_01.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">설화수</p>
+                            <p>제작 기간 <br> 약7일</p>
+                            <p>사용 툴 <br>React, Node.js, Figma</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/sul1/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide team">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_02.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_02.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">PASSION5</p>
+                            <p>제작 기간 <br> 약 14일</p>
+                            <p>사용 툴 <br>HTML, CSS, Figma</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/team_project/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_03.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_03.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">LUSH</p>
+                            <p>제작 기간 <br> 약 5일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, Figma</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href=" https://rimi1605.github.io/lush/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_04.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_04.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">too cool for school</p>
+                            <p>제작 기간 <br> 약 5일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, JS, Figma</p>
+                            <p>제작 페이지 <br> main, sub</p>
+                            <a href="https://rimi1605.github.io/too/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_05.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_05.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">rom&nd</p>
+                            <p>제작 기간 <br> 약 7일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, JS, Figma</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/romand/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_06.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_06.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">나비 미술관</p>
+                            <p>제작 기간 <br> 약 4일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, JS, Figma</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/nabi/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_07.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_07.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">시계</p>
+                            <p>제작 기간 <br> 약 3일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, JS</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/watch/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_08.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_08.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">CJone</p>
+                            <p>제작 기간 <br> 약 8일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, JS</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/cjone/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre mob">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_09.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_09.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">HOTEL</p>
+                            <p>제작 기간 <br> 약 2일</p>
+                            <p>사용 툴 <br>HTML, CSS</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/hotel/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre mob">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_010.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_010.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">현대 갤러리</p>
+                            <p>제작 기간 <br> 약 9일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery</p>
+                            <p>제작 페이지 <br> main</p>
+                            <a href="https://rimi1605.github.io/hy/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide pre">
+                        <div class="imgB">
+                            <img class="imac" src="./img/iMac_011.png" alt="imac">
+                            <img class="macb" src="./img/MacBook_011.png" alt="mac">
+                        </div>
+                        <div class="txtB">
+                            <p class="tit">10000LAB</p>
+                            <p>제작 기간 <br> 약 5일</p>
+                            <p>사용 툴 <br>HTML, CSS, jquery, JS</p>
+                            <p>제작 페이지 <br> main, sub</p>
+                            <a href="https://rimi1605.github.io/hotel/" target="_blank" class="tab">WEB</a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                <!-- Initialize Swiper -->
+                <script>
+                    var swiper = new Swiper(".mySwiper", {
+                    cssMode: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                    },
+                    mousewheel: true,
+                    keyboard: true,
+                    });
+                </script>
+            </section>
+            <!-- yolo -->
+            <section id="yolo">
+                <h2 class="tit">YOLOㆍAI project</h2>
+                <img src="./img/yolo.png" alt="project">
+                <a href="./video/pc.mp4" class="btn" target="_blank">PC</a>
+                <a href="https://youtu.be/bNUfNWfmtiY" class="btn" target="_blank">mobile</a>
+                <a href="https://youtu.be/kQ4A9dcvbzg" class="btn" target="_blank">chatbot</a>
+            </section>
+            <!-- design -->
+            <section id="design">
+                <h2 class="tit">design</h2>
+                <ul class="tab">
+                    <li class="on"><a href="#">상세페이지</a></li>
+                    <li><a href="#">포스터</a></li>
+                    <li><a href="#">카드뉴스</a></li>
+                </ul>
+                <ul class="content on">
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_01.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_02.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_03.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_04.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="content">
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_05.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_06.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_07.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_08.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="content">
+                    <li class="gif">
+                        <div class="bg">
+                            <div class="imgB"><img src="./img/design_09.png" alt="img"></div>
+                            <a href="#"><ion-icon name="close"></ion-icon></a>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+         <footer id="contact">
+            <div class="left">
+                <h2 class="f_tit">@LEE AH RIM</h2>
+                <span><a href="dkfladl04@naver.com">dkfladl05@naver.com</a></span>
+                <p>© copyright. All Right Reserved.</p>
+                <p>본 사이트는 개인 포트폴리오 사이트로 제작되어 상업적 목적이 아닙니다. <br>사용된 이미지 및 폰트 등은 별도의 출처가 있음을 밝혀 드립니다. </p>
+            </div>
+            <div class="right">
+                <ul class="sns">
+                    <li><a href="#"><img src="" alt="sns"></a></li>
+                </ul>
+                <p>Last updated: 2025년 12월 03일</p>
+            </div>
+         </footer>
+    </div>
+</body>
+</html>
