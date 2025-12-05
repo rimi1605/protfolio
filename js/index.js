@@ -1,5 +1,8 @@
 $(function(){
-    $(".popup .bg a").on("click", function(){
+    
+
+    $(".popup .bg a").on("click", function(e){
+        e.preventDefault();
         $(".popup").css({display:"none"});
         $("body").removeClass("noS");
     });
@@ -98,11 +101,11 @@ $(function(){
 
     $("#design .content .gif").on("click", function(e){
         e.preventDefault();
-        $('.imgB').html('<img src="./img/design_09.gif" alt="img">');
+        $('li.gif .imgB').html('<img src="./img/design_09.gif" alt="img">');
     });
     $("#design .content").on("click", "li.gif.pop a", function(e){
         e.preventDefault();
-        $('.imgB').html('<img src="./img/design_09.png" alt="img">');
+        $('li.gif .imgB').html('<img src="./img/design_09.png" alt="img">');
     });
 
 
